@@ -1,0 +1,605 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: rgb(40, 4, 4);
+  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
+  color: black;
+}
+
+.main-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #003898;
+  z-index: 1000;
+}
+
+.main-header .logo {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 100%;
+  margin: 1.3rem;
+}
+
+.main-header a {
+  text-decoration: none;
+  font-size: 1.7rem;
+  font-weight: 500;
+  line-height: 2.5rem;
+  color: #fff;
+  align-items: center;
+  padding-left: 2.7rem;
+}
+
+header .navbar {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 100%;
+  margin-right: 5rem;
+}
+
+header .navbar ul {
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+}
+
+header .navbar ul li {
+  list-style: none;
+  float: left;
+}
+
+header .navbar ul li a {
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-decoration: none;
+  line-height: 2.5rem;
+  padding: 5px;
+  color: #fff;
+  border-bottom: 0.15em solid gold;
+  padding: 0.7rem;
+}
+
+header .navbar ul li a:hover {
+  color: rgb(251, 0, 0);
+  border-bottom: 0.15em solid red;
+  padding: 0.5rem;
+}
+
+header .social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 2.3rem;
+}
+
+header .social-media a {
+  text-decoration: none;
+  padding: 0.3rem;
+}
+
+header .social-media a i {
+  font-size: 1.8rem;
+  color: #fff;
+}
+
+header .social-media a i:hover {
+  border-bottom: 0.15em solid red;
+  padding: 0.5rem;
+  color: red;
+}
+
+h1 {
+  color: #fff;
+}
+
+p {
+  color: #fff;
+}
+
+a {
+  color: #fff;
+}
+
+h2 {
+  color: #fff;
+}
+
+h1 {
+  color: #fff;
+}
+
+h3 {
+  color: #fff;
+}
+
+h4 {
+  color: #fff;
+}
+
+.wrapper-main {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+main {
+  width: 100%;
+  height: calc(100vh - 40px);
+  background-color: rgb(5, 20, 36);
+  margin-top: 4rem;
+  background-image: url(../img/abstract-digital-grid-black-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.main-intro h1 {
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-intro h1 {
+  font-size: 3.4rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
+main p {
+  font-size: 2.3rem;
+  line-height: 1.5;
+}
+
+main a {
+  font-size: 2rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 0.8rem 2rem;
+  background-color: red;
+  margin-left: 1.2rem;
+  margin: 1.2rem;
+}
+
+main a:hover {
+  background-color: rgb(96, 17, 17);
+}
+
+main .main-intro {
+  position: relative;
+  right: 15vh;
+}
+
+main .main-quote {
+  position: relative;
+  left: 12vh;
+}
+
+main .main-quote p {
+  position: relative;
+  margin-left: 2.3rem;
+  border-left: 0.2rem solid red;
+  padding-left: 2.3rem;
+  margin: 20px 0;
+}
+
+main .main-quote p:last-child {
+  margin-left: 4rem;
+}
+
+/*category Parts */
+.main-section {
+  width: 100%;
+  padding: 6rem 0;
+  background-color: #fff;
+}
+
+.category-section {
+  display: flex;
+  justify-content: center;
+  -moz-column-gap: 2.3rem;
+       column-gap: 2.3rem;
+  flex-wrap: wrap;
+}
+
+.main-section-box {
+  width: 20rem;
+  height: 20rem;
+  background-color: black;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.main-section-box:nth-child(2) {
+  background-image: url(..//img/Sect/embedded\ system.jpg);
+}
+
+.main-section-box:nth-child(3) {
+  background-image: url(..//img/Sect/download.jpeg);
+}
+
+.main-section-box:nth-child(4) {
+  background-image: url(..//img/Sect/ISO_C++_Logo.svg.png);
+}
+
+.main-section-box:nth-child(5) {
+  background-image: url(..//img/Sect/graphic-designer.webp);
+}
+
+.dark-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: black;
+  opacity: 0.5;
+}
+
+.main-section-box:hover .dark-overlay {
+  opacity: 0;
+  transition: all ease-in-out 500ms;
+}
+
+.main-section-box h3 {
+  font-size: 2.2rem;
+  line-height: 1.1;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  text-shadow: -0.2rem 0.2rem 0.4rem black;
+  z-index: 100;
+}
+
+.main-section a {
+  text-decoration: none;
+}
+
+.main-section p {
+  color: black;
+  font-size: 2.2rem;
+  text-transform: uppercase;
+  flex-basis: 100%;
+  padding-bottom: 2.3rem;
+  text-align: center;
+}
+
+/*About Section*/
+.main-about {
+  width: 100%;
+  padding: 6rem 0;
+  background-color: rgb(5, 20, 36);
+}
+
+.main-about-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -moz-column-gap: 6rem;
+       column-gap: 6rem;
+}
+
+.main-about-img img {
+  width: 20rem;
+  border-radius: 50%;
+}
+
+.main-about-quotes {
+  flex-basis: 20.5rem;
+}
+
+.main-about-quotes h2 {
+  text-transform: uppercase;
+  padding: 2.3rem 0;
+  font-weight: 600;
+}
+
+.main-about-quotes p {
+  font-size: inherit;
+}
+
+.main-about-quotes a {
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 1.8rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: block;
+  padding: 0.8rem 2rem;
+  background-color: red;
+  margin-top: 2.3rem;
+  transition: all ease-in-out 200ms;
+}
+
+.main-about-quotes a:hover {
+  background-color: rgb(96, 17, 17);
+}
+
+.main-about-label {
+  flex-basis: 35rem;
+}
+
+.main-about-label-bar {
+  width: 100%;
+  height: 2rem;
+  border: 0.3em solid #fff;
+}
+
+.main-about-label-bar-fill {
+  width: 100%;
+  height: 100%;
+  background-color: red;
+}
+
+.html {
+  width: 79%;
+}
+
+.em {
+  width: 85%;
+}
+
+.py {
+  width: 75%;
+}
+
+.cp {
+  width: 95%;
+}
+
+.ps {
+  width: 50%;
+}
+
+/*Footer Section*/
+.footer-main {
+  width: 100%;
+  padding: 6rem 0 10em;
+  background-color: #003898;
+}
+
+.footer-main-flex {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.footer-testimony {
+  flex-basis: 20%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.footer-testimony img {
+  width: 100%;
+  border-radius: 100%;
+  padding: 2em;
+  align-items: center;
+  align-self: center;
+}
+
+.footer-testimony p {
+  font-size: 1.6em;
+  line-height: 1.5;
+  padding: 2em 2em;
+}
+
+.get-in-touch {
+  font-size: 1.6rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0.8rem 2rem;
+  border: 0.2rem solid red;
+  transition: all ease-in-out 200ms;
+}
+
+.get-in-touch:hover {
+  border: 0.2rem solid rgb(96, 17, 17);
+}
+
+.footer-sitemap {
+  flex-basis: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-sitemap ul {
+  list-style: none;
+}
+
+.footer-sitemap ul:nth-child(1) {
+  border-left: 0.4rem solid red;
+  padding-left: 2rem;
+}
+
+.footer-sitemap ul:nth-child(1), .footer-sitemap ul:nth-child(2) {
+  flex-basis: 22em;
+}
+
+.footer-sitemap ul:nth-child(3) {
+  flex-basis: 32rem;
+  padding-right: 2rem;
+}
+
+.footer-sitemap ul:nth-child(4) {
+  flex-grow: 1;
+}
+
+.footer-sitemap ul:nth-child(4) li {
+  clear: both;
+  float: right;
+}
+
+.footer-sitemap p {
+  text-transform: uppercase;
+  line-height: 1.5;
+}
+
+.footer-sitemap a {
+  text-decoration: none;
+  line-height: 1.5;
+  text-transform: capitalize;
+}
+
+.section-main {
+  width: 100%;
+  padding: 6rem 0 2rem;
+  background-color: #fff;
+}
+
+.section-main-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer-social-media h4 {
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: 600;
+  padding: 2rem 0;
+  color: #003898;
+  font-size: 2em;
+}
+
+.footer-social-media ul {
+  list-style: none;
+  display: flex;
+}
+
+.footer-social-media ul :-moz-any-link {
+  font-size: 1.8rem;
+  text-decoration: none;
+}
+
+.footer-social-media ul :any-link {
+  font-size: 1.8rem;
+  text-decoration: none;
+}
+
+.footer-social-media ul li {
+  padding: 2.5rem;
+  color: black;
+  font-size: 1.8rem;
+  transition: all ease-in-out 200ms;
+}
+
+.footer-social-media ul li:hover {
+  color: blue;
+}
+
+.active:hover {
+  color: red;
+}
+
+/*----------------MOBILE VERSION---------------------*/
+@media only screen and (max-width: 600px) {
+  .wrapper-main {
+    width: 80%;
+  }
+  .main-header a {
+    font-size: 1.8rem;
+    font-weight: 400;
+    padding-left: 2.2rem;
+  }
+  header .navbar {
+    display: none;
+  }
+  main {
+    width: 100%;
+    height: calc(100vh - 40px);
+    background-color: rgb(5, 20, 36);
+    margin-top: 4rem;
+    background-image: url(../img/abstract-digital-grid-black-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .main-intro h1 {
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .main-intro h1 {
+    font-size: 3.4rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 1.2;
+  }
+  main p {
+    font-size: 2.3rem;
+    line-height: 1.5;
+  }
+  main a {
+    font-size: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 0.8rem 2rem;
+    background-color: red;
+    margin-left: 1.2rem;
+    margin: 1.2rem;
+  }
+  main a:hover {
+    background-color: rgb(96, 17, 17);
+  }
+  main .main-intro {
+    position: relative;
+    right: 15vh;
+  }
+  main .main-quote {
+    position: relative;
+    left: 12vh;
+  }
+  main .main-quote p {
+    position: relative;
+    margin-left: 2.3rem;
+    border-left: 0.2rem solid red;
+    padding-left: 2.3rem;
+    margin: 20px 0;
+  }
+  main .main-quote p:last-child {
+    margin-left: 4rem;
+  }
+}/*# sourceMappingURL=style.css.map */
